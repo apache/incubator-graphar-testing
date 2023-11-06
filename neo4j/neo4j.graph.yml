@@ -1,7 +1,0 @@
-name: neo4j
-vertices:
-  - person.vertex.yml
-  - movie.vertex.yml
-edges:
-  - person_produced_movie.edge.yml
-version: gar/v1
