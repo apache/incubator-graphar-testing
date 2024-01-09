@@ -7,27 +7,18 @@ adj_lists:
   - ordered: true
     aligned_by: src
     file_type: parquet
-    property_groups:
-      - file_type: parquet
-        properties:
-          - is_primary: false
-            name: rating
-            data_type: int64
-          - is_primary: false
-            name: summary
-            data_type: string
   - ordered: true
     aligned_by: dst
     file_type: parquet
-    property_groups:
-      - file_type: parquet
-        properties:
-          - is_primary: false
-            name: rating
-            data_type: int64
-          - is_primary: false
-            name: summary
-            data_type: string
+property_groups:
+  - file_type: parquet
+    properties:
+      - is_primary: false
+        name: rating
+        data_type: int64
+      - is_primary: false
+        name: summary
+        data_type: string
 dst_label: Movie
 edge_label: REVIEWED
 version: gar/v1

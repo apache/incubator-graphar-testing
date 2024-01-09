@@ -7,27 +7,18 @@ adj_lists:
   - ordered: true
     aligned_by: src
     file_type: parquet
-    property_groups:
-      - file_type: parquet
-        properties:
-          - is_primary: false
-            name: _rank
-            data_type: int64
-          - is_primary: false
-            name: degree
-            data_type: int64
   - ordered: true
     aligned_by: dst
     file_type: parquet
-    property_groups:
-      - file_type: parquet
-        properties:
-          - is_primary: false
-            name: _rank
-            data_type: int64
-          - is_primary: false
-            name: degree
-            data_type: int64
+property_groups:
+  - file_type: parquet
+    properties:
+      - is_primary: false
+        name: _rank
+        data_type: int64
+      - is_primary: false
+        name: degree
+        data_type: int64
 dst_label: player
 edge_label: follow
 version: gar/v1
