@@ -11,11 +11,11 @@ adj_lists:
     aligned_by: src
     prefix: ordered_by_source/
     file_type: csv
-    property_groups:
-      - prefix: weight/
-        file_type: csv
-        properties:
-          - name: weight
-            data_type: double
-            is_primary: false
+property_groups:
+  - prefix: weight/
+    file_type: csv
+    properties:
+      - name: weight
+        data_type: double
+        is_primary: false
 version: gar/v1
