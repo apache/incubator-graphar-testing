@@ -10,19 +10,14 @@ adj_lists:
   - ordered: false
     aligned_by: dst
     file_type: csv
-    property_groups:
-      - file_type: csv
-        properties:
-          - name: creationDate
-            data_type: string
-            is_primary: false
   - ordered: true
     aligned_by: src
     file_type: orc
-    property_groups:
-      - file_type: orc
-        properties:
-          - name: creationDate
-            data_type: string
-            is_primary: false
+property_groups:
+  - prefix: creationDate/
+    file_type: orc
+    properties:
+      - name: creationDate
+        data_type: string
+        is_primary: false
 version: gar/v1
