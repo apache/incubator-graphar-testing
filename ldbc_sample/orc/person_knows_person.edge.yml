@@ -11,22 +11,15 @@ adj_lists:
     aligned_by: src
     prefix: ordered_by_source/
     file_type: orc
-    property_groups:
-      - prefix: creationDate/
-        file_type: orc
-        properties:
-          - name: creationDate
-            data_type: string
-            is_primary: false
   - ordered: true
     aligned_by: dst
     prefix: ordered_by_dest/
     file_type: orc
-    property_groups:
-      - prefix: creationDate/
-        file_type: orc
-        properties:
-          - name: creationDate
-            data_type: string
-            is_primary: false
+property_groups:
+  - prefix: creationDate/
+    file_type: orc
+    properties:
+      - name: creationDate
+        data_type: string
+        is_primary: false
 version: gar/v1
