@@ -8,6 +8,6 @@ property_groups:
         data_type: string
       - is_primary: false
         name: born
-        data_type: string
+        data_type: int64
 label: Person
 version: gar/v1
