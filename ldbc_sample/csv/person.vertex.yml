@@ -6,6 +6,7 @@ property_groups:
       - name: id
         data_type: int64
         is_primary: true
+        is_nullable: false
     prefix: id/
     file_type: csv
   - properties:
@@ -18,6 +19,7 @@ property_groups:
       - name: gender
         data_type: string
         is_primary: false
+        is_nullable: true
     prefix: firstName_lastName_gender/
     file_type: csv
 version: gar/v1
