@@ -19,7 +19,7 @@
 
 github:
   description: >-
-    "Auxiliary testing data files for Apache GraphAr (Incubating)."
+    Auxiliary testing data files for Apache GraphAr (Incubating).
   homepage: https://graphar.apache.org/
   labels:
     - graph
@@ -44,7 +44,7 @@ github:
 notifications:
   commits: commits@graphar.apache.org
   issues: commits@graphar.apache.org
-  pullrequests: commit@graphar.apache.org
+  pullrequests: commits@graphar.apache.org
   jobs:         commits@graphar.apache.org
   discussions:  commits@graphar.apache.org
 
