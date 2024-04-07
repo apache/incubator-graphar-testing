@@ -39,7 +39,7 @@ github:
   features:
     issues: true
     discussions: false
-    wiki: flase
+    wiki: false
     projects: false
 notifications:
   commits: commits@graphar.apache.org
