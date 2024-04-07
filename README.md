@@ -1,1 +1,1 @@
-Auxiliary testing dataset for Apache GraphAr.
+Auxiliary testing data files for Apache GraphAr (Incubating).
