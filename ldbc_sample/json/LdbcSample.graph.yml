@@ -1,6 +1,6 @@
 vertices:
   - Person.vertex.yml
-prefix: /tmp/graphar/ldbc_sample/
+prefix: ""
 name: LdbcSample
 edges:
   - Person_Knows_Person.edge.yml
