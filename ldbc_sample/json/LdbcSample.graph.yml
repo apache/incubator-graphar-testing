@@ -1,6 +1,5 @@
 vertices:
   - Person.vertex.yml
-prefix: ""
 name: LdbcSample
 edges:
   - Person_Knows_Person.edge.yml
