@@ -1,6 +1,6 @@
-src_label: post
-edge_label: isLocatedIn
-dst_label: place
+src_type: post
+edge_type: isLocatedIn
+dst_type: place
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

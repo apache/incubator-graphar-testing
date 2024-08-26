@@ -1,6 +1,6 @@
-src_label: forum
-edge_label: hasModerator
-dst_label: person
+src_type: forum
+edge_type: hasModerator
+dst_type: person
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

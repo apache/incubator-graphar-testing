@@ -1,4 +1,4 @@
-label: place
+type: place
 chunk_size: 4096
 prefix: vertex/place/
 property_groups:

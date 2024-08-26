@@ -1,4 +1,4 @@
-label: post
+type: post
 chunk_size: 4096
 prefix: vertex/post/
 property_groups:

@@ -1,6 +1,6 @@
-src_label: tag
-edge_label: hasType
-dst_label: tagclass
+src_type: tag
+edge_type: hasType
+dst_type: tagclass
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

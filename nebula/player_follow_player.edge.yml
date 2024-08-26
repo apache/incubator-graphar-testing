@@ -1,5 +1,5 @@
 dst_chunk_size: 100
-src_label: player
+src_type: player
 chunk_size: 1024
 src_chunk_size: 100
 prefix: edge/player_follow_player/
@@ -19,6 +19,6 @@ property_groups:
       - is_primary: false
         name: degree
         data_type: int64
-dst_label: player
-edge_label: follow
+dst_type: player
+edge_type: follow
 version: gar/v1

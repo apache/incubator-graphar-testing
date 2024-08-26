@@ -1,5 +1,5 @@
 dst_chunk_size: 100
-src_label: player
+src_type: player
 chunk_size: 1024
 src_chunk_size: 100
 prefix: edge/player_serve_team/
@@ -34,6 +34,6 @@ property_groups:
       - is_primary: false
         name: end_year
         data_type: int64
-dst_label: team
-edge_label: serve
+dst_type: team
+edge_type: serve
 version: gar/v1

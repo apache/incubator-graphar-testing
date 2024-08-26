@@ -9,5 +9,5 @@ property_groups:
       - is_primary: false
         name: tagline
         data_type: string
-label: Movie
+type: Movie
 version: gar/v1

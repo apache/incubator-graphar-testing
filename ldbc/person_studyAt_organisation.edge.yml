@@ -1,6 +1,6 @@
-src_label: person
-edge_label: studyAt
-dst_label: organisation
+src_type: person
+edge_type: studyAt
+dst_type: organisation
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

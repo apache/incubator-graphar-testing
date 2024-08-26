@@ -19,5 +19,5 @@ property_groups:
         is_primary: false
         name: gender
         data_type: string
-label: Person
+type: Person
 version: gar/v1

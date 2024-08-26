@@ -1,4 +1,4 @@
-label: forum
+type: forum
 chunk_size: 4096
 prefix: vertex/forum/
 property_groups:

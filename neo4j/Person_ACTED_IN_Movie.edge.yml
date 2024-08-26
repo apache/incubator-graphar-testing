@@ -1,5 +1,5 @@
 dst_chunk_size: 100
-src_label: Person
+src_type: Person
 chunk_size: 1024
 src_chunk_size: 100
 prefix: edge/Person_ACTED_IN_Movie/
@@ -10,6 +10,6 @@ adj_lists:
   - ordered: true
     aligned_by: dst
     file_type: parquet
-dst_label: Movie
-edge_label: ACTED_IN
+dst_type: Movie
+edge_type: ACTED_IN
 version: gar/v1

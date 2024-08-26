@@ -1,6 +1,6 @@
-src_label: comment
-edge_label: replyOf
-dst_label: comment
+src_type: comment
+edge_type: replyOf
+dst_type: comment
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

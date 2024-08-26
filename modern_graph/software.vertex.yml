@@ -1,4 +1,4 @@
-label: software
+type: software
 chunk_size: 10
 prefix: vertex/software/
 property_groups:

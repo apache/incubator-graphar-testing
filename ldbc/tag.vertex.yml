@@ -1,4 +1,4 @@
-label: tag
+type: tag
 chunk_size: 4096
 prefix: vertex/tag/
 property_groups:

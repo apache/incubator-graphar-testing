@@ -9,5 +9,5 @@ property_groups:
       - is_primary: false
         name: name
         data_type: string
-label: team
+type: team
 version: gar/v1

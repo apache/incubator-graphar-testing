@@ -1,6 +1,6 @@
-src_label: person
-edge_label: likes
-dst_label: post
+src_type: person
+edge_type: likes
+dst_type: post
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096
