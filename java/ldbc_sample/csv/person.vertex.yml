@@ -1,4 +1,4 @@
-type: person
+label: person
 chunk_size: 100
 prefix: vertex/person/
 property_groups:

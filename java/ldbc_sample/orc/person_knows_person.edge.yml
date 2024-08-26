@@ -1,6 +1,6 @@
-src_type: person
-edge_type: knows
-dst_type: person
+src_label: person
+edge_label: knows
+dst_label: person
 chunk_size: 1024
 src_chunk_size: 100
 dst_chunk_size: 100
