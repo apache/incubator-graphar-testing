@@ -1,6 +1,6 @@
-src_label: place
-edge_label: isPartOf
-dst_label: place
+src_type: place
+edge_type: isPartOf
+dst_type: place
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

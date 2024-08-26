@@ -1,6 +1,6 @@
-src_label: person
-edge_label: hasInterest
-dst_label: tag
+src_type: person
+edge_type: hasInterest
+dst_type: tag
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

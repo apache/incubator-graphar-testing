@@ -1,4 +1,4 @@
-label: comment
+type: comment
 chunk_size: 4096
 prefix: vertex/comment/
 property_groups:

@@ -1,6 +1,6 @@
-src_label: forum
-edge_label: containerOf
-dst_label: post
+src_type: forum
+edge_type: containerOf
+dst_type: post
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

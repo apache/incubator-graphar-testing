@@ -1,6 +1,6 @@
-src_label: tagclass
-edge_label: isSubclassOf
-dst_label: tagclass
+src_type: tagclass
+edge_type: isSubclassOf
+dst_type: tagclass
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096

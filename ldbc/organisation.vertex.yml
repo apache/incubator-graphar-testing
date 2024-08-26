@@ -1,4 +1,4 @@
-label: organisation
+type: organisation
 chunk_size: 4096
 prefix: vertex/organisation/
 property_groups:

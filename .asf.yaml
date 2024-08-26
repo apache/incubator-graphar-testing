@@ -21,7 +21,7 @@ github:
   description: >-
     Auxiliary testing data files for Apache GraphAr (Incubating).
   homepage: https://graphar.apache.org/
-  labels:
+  types:
     - graph
     - graphar
   enabled_merge_buttons:

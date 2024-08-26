@@ -1,6 +1,6 @@
-src_label: post
-edge_label: hasCreator
-dst_label: person
+src_type: post
+edge_type: hasCreator
+dst_type: person
 chunk_size: 8192
 src_chunk_size: 4096
 dst_chunk_size: 4096
