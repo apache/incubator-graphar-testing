@@ -1,5 +1,5 @@
 src_type: person
-edge_type: knows
+edge_type: knows-date
 dst_type: person
 chunk_size: 1024
 src_chunk_size: 100
@@ -19,7 +19,7 @@ adj_lists:
 property_groups:
   - file_type: parquet
     properties:
-      - name: creationDate
-        data_type: string
+      - name: creationDate-date
+        data_type: date
         is_primary: false
 version: gar/v1
